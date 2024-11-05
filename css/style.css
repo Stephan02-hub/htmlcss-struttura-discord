@@ -143,3 +143,56 @@ section .box-square{
 
 
 }
+
+footer{
+    background-color: black;
+}
+
+footer .footer-top{
+    display: flex;
+    background-color: black;
+}
+
+.footer-top .box-left{
+    background-color: rgb(252, 65, 118);
+    width: 25%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 2px;
+    margin-left: 100px;
+    margin-bottom: 4px;
+
+}
+
+.footer-top .box-right{
+    background-color: greenyellow;
+    width: 11%;
+    height: 250px ;
+    border: 2px dashed white;
+    margin-top: 2px;
+
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin top: 4px;
+    width: 71%;
+    height: 30px ;
+    margin-left: 100px
+}
+
+.left {
+    background-color: rgb(252, 65, 118);
+    border: 1px dashed black;
+    width: 40px;
+    height: 20px;
+}
+
+.right {
+    background-color: rgb(252, 65, 118);
+    border: 1px dashed black;
+    width: 40px;
+    height: 20px;
+}
