@@ -60,3 +60,86 @@
 }
 
 
+
+.header-bottom .hero {
+    background-color: palevioletred;
+    width: 70%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin: auto;
+
+}
+/*-----------------
+       SECTION
+-----------------*/
+
+section .box-top{
+    display: flex;
+}
+
+.box-top .col-big {
+    background-color: aqua;
+    width: 45%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 100px;
+
+
+}
+
+.box-top .col-small {
+    background-color: pink;
+    width: 25%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 0;
+
+
+}
+
+section .box-bottom{
+    display: flex;
+    background-color: gray;
+}
+
+.box-bottom .col-big {
+    background-color: pink;
+    width: 45%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.box-bottom .col-small {
+    background-color: aqua;
+    width: 25%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 0;
+
+
+}
+
+section .box-square{
+    display: flex;
+    background-color: gray;
+}
+
+.box-square .square{
+    background-color: green;
+    width: 70%;
+    height: 250px ;
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+
+
+}
