@@ -1,0 +1,62 @@
+/*-----------------
+       RESET
+-----------------*/     
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+/*-----------------
+       GENERAL
+-----------------*/
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/*-----------------
+       HEADER
+-----------------*/
+.header-top{
+    background-color: #add8e6;
+    padding: 15px 0;
+}
+
+.header-bottom{
+    background-color: #00008b;
+    padding: 30px 0;
+}
+
+.header-top >  .container{
+    display: flex;
+    background-color: #daa520;
+}
+
+.header-top .logo,
+.header-top nav,
+.header-top .Login {
+    border:  1px dashed black;
+    padding: 6px;
+
+}
+
+.header-top .logo, .header-top .Login {
+    width: 20%;
+}
+
+.header-top .logo {
+    text-align: right;
+}
+
+.header-top nav {
+    width: 60%;
+    text-align: center;
+}
+
+
